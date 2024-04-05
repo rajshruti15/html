@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Inventory Management System</title>
+  <style>
+    #loginbody{
+    background-image:url("https://www.3csoftware.com/wp-content/uploads/2019/07/iStock-1094465844lg.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+.LoginHeader{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    margin-bottom:50px;
+}
+.LoginHeader h1{
+color:blue;
+font-size:60px;
+margin:0px;
+font-family:arial;
+}
+.LoginHeader h2{
+    color:aqua;
+    font-size:45px;
+    margin:0px;
+}
+.LoginHeader h2:after{
+    content:'';
+    display:block;
+    height:5px;
+    background:blue;
+    width:50%;
+    margin:0 auto;
+   
+}
+.LoginBody form{
+    margin:0 auto;
+    width:300px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.5);
+    padding:50px;
+
+}
+
+.loginInputContainer{
+    color:white;
+    text-align: center;
+}
+.login{
+    text-align: center;
+    
+    margin:0 auto;
+}
+
+  </style>
+</head>
+<body id="loginbody">
+   <div class="container">
+     <div class="LoginHeader">
+         <h1>IMS</h1>
+         <h2>Inventory Management System</h2>
+     </div>
+     <br>
+     <div class="LoginBody"> 
+        <form action="">
+            <div class="loginInputContainer">
+                <label for=""><strong>UserID</strong></label>
+                <p>
+                <input type="text" placeholder="UserId or EmailId">
+                </p>
+            </div>
+            <br>
+            <div class="loginInputContainer">
+                <label for=""><strong>Password</strong></label>
+                <p>
+                <input type="Password" placeholder="PASSWORD">
+                </p>
+            </div>
+            <br>
+            <div class="login">
+                <button>Login</button>
+            </div>
+        </form>
+
+          </div>
+   </div> 
+</body>
+</html>
